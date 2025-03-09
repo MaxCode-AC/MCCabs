@@ -1,0 +1,7 @@
+package com.megacity.cab.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.megacity.cab.model.Car;
+
+public interface CarRepository extends JpaRepository<Car, Long> {
+}
